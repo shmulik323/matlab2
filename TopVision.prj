@@ -1,0 +1,99 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1692579344" file="C:\Users\shmul\Desktop\Fruits\TopVision.prj" location="C:\Users\shmul\Desktop\Fruits" name="TopVision" target="target.mlapps" target-name="Package App">
+    <param.appname>TopVision</param.appname>
+    <param.authnamewatermark>shmuel,alex,mishel,lior</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\shmul\Desktop\Fruits</param.output>
+    <param.guid>bfc408b7-00b8-4bd6-a854-847d348c5b79</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\app1.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Approved.jpg</file>
+      <file>${PROJECT_ROOT}\banana.jpg</file>
+      <file>${PROJECT_ROOT}\createMask.m</file>
+      <file>${PROJECT_ROOT}\Identify.m</file>
+      <file>${PROJECT_ROOT}\Rejected.jpg</file>
+      <file>C:\Users\shmul\Desktop\matlab1\Fruits\apple1.jpg</file>
+      <file>C:\Users\shmul\Desktop\matlab1\Fruits\lemons.jpg</file>
+      <file>C:\Users\shmul\Desktop\matlab1\Fruits\oranges.jpg</file>
+      <file>C:\Users\shmul\Desktop\matlab1\Fruits\peers.jpg</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\shmul\Desktop" name="Fruits" optional="false">C:\Users\shmul\Desktop\Fruits</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
